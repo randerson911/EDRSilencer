@@ -1,4 +1,11 @@
 # EDRSilencer
+
+## Note from Ryan
+This is a fork the of original EDRSilencer by netero1010. My goal with this Fork is to create a more customized experience, to avoid AV. I also want to consider included auto-run capabilities, and running a beacon inside of this as well. I want the compiler to be able to take a powershell command that will be compiled with the executable and when run on a target host, execute the disable EDR portion first, then execute the beacon portion after. This will create a much more versatile product to be used in a Red Team Campaign and engagement. Learning C and C++ is another goal of this project as well. That's enough of me for now. Time to actually  try and learn and see what I can do from here.
+
+## End Note from Ryan
+-------------------------------------
+
 Inspired by the closed source FireBlock tool [FireBlock](https://www.mdsec.co.uk/2023/09/nighthawk-0-2-6-three-wise-monkeys/) from MdSec NightHawk, I decided to create my own version and this tool was created with the aim of blocking the outbound traffic of running EDR processes using Windows Filtering Platform (WFP) APIs.
 
 This tool offers the following features:
